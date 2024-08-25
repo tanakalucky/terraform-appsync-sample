@@ -13,5 +13,5 @@ type GetDataResponse {
 }
 
 type Mutation {
-  put_data: Boolean
+  put_data(id: String!, name: String!): Boolean
 }
