@@ -1,12 +1,6 @@
 {
   "service": "terraform-appsync-sample",
   "dockerComposeFile": "../docker-compose.yml",
-  "portsAttributes": {
-    "onAutoForward": {
-      "label": "Application",
-      "onAutoForward": "ignore"
-    }
-  },
   "workspaceFolder": "/terraform-appsync-sample",
   "customizations": {
     "vscode": {
